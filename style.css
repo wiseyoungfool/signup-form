@@ -1,0 +1,124 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+:root {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.signup {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container {
+    background-color: black;
+    height: 100vh;
+    max-height: 100%;
+}
+
+.signup-area {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo-field {
+    display: flex;
+
+    background-color: black;
+    opacity: 0.6;
+    height: 200px;
+    position: absolute;
+    top: 8rem;
+}
+
+.logo {
+    height: 100%;
+    flex: auto;
+    opacity: 1;
+}
+
+.logo-text {
+    height: 100%;
+    font-size:larger;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.submit-button {
+    margin: 50px;
+    flex: auto;
+    text-align: center;
+}
+
+.dummy-text {
+    margin: 50px;
+    flex: auto;
+    padding-top: 10vh;
+}
+
+.inputs {
+    background-color: rgb(34, 34, 34);
+    box-shadow: black;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: small;
+    color: gray;
+    margin: 5px;
+}
+
+.box {
+    margin: 50px;
+}
+
+input {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(39, 44, 39);
+    color: white;
+}
+
+.image {
+    max-height: 100%;
+}
+
+button {
+    padding: 20px;
+    font-size: larger;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    border: 0px solid green;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:aquamarine;
+    cursor: pointer;
+}

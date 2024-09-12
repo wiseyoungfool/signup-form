@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="signup">
+        <div class="image-container">
+            <img class="image" src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+            <div class="logo-field">
+                <img class="logo" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+                <h1 class="logo-text">ODIN</h1>
+            </div>
+        </div>
+        <div class="signup-area">
+            <div class="dummy-text">
+                <h1>Sign up</h1>
+                <h4>Welcome to the new thing you wanted that everybody is jealous of. Just sign up now and get it for free.</h4>
+                <h4>You know you want to.</h4>
+            </div>
+            <form class="form">
+                <div class="inputs">
+                    <div class="input-group">
+                        <label for="first">First Name:</label><br>
+                        <input type="text" name="first" placeholder="First Name" required="true">
+                    </div>
+                    <div class="input-group">
+                        <label for="last">Last Name:</label><br>
+                        <input type="text" name="last" placeholder="Last Name" required="true">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="input-group">
+                        <label for="number">Phone:</label><br>
+                        <input type="tel" name="number" placeholder="Phone Number">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password:</label><br>
+                        <input type="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="input-group">
+                        <label for="confirm">Confirm Password:</label><br>
+                        <input type="password" name="confirm" placeholder="Confirm Password">
+                    </div>
+                </div>
+                <div class="submit-button">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account?
+                    <a href="">Log In</a></p>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
